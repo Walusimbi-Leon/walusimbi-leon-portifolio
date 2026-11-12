@@ -73,10 +73,10 @@ export const HeroSection: React.FC = () => {
             <div className="relative w-full max-w-md">
               <div className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-900 group">
                 <img
-                  src="/ceo-portrait.jpg"
+                  src="/ceo-portrait.png"
                   alt="Walusimbi Leon — Founder & Chief Executive Officer of SGSS Org"
                   referrerPolicy="no-referrer"
-                  className="w-full h-auto aspect-square object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
+                  className="w-full h-auto aspect-[4/5] object-cover object-center transition-transform duration-500 group-hover:scale-[1.02]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
                 
